@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, 
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} 
+:focus {
+    outline: 0;
+} 
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration:none
+} 
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+} 
+th, td {
+    text-align: left;
+    font-weight: normal;
+} 
+img, iframe {
+    border: none;
+    text-decoration:none;
+} 
+ol, ul {
+    list-style: none;
+} 
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: inherit;
+    padding: 0;
+} 
+select {
+    margin: inherit;
+} 
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    background-color: #000;
+    height: 1px
+}
+body, html {
+	font-family: Monospace;
+	background-color: #000;
+	color: #00ffff;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+    font-size: 100px;
+}
+*:not(input,textarea) {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+   -moz-user-select: -moz-none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+button {
+	border: none;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+body, html {
+	font-family: Monospace;
+	background-color: #000;
+	color: #45a1ff;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+    font-size: 100px;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+   -moz-user-select: -moz-none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	font-size: 100%;
+    line-height: 0;
+    vertical-align: baseline;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0;
+}
+body {
+	font-family: Monospace;
+	background-color: #000;
+	color: #fff;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background: black;
+}
+.wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#logo_show_canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+@media only screen {
+    html {
+        font-size: 85px !important;
+    }
+}
+@media only screen and (min-width: 375px){
+    html {
+        font-size: 100px !important;
+    }
+}
+@media only screen and (min-width: 414px){
+    html {
+        font-size: 110px;
+    }
+}
